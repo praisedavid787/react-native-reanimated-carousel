@@ -147,6 +147,8 @@ const Carousel = React.forwardRef<ICarouselInstance, TCarouselProps<any>>(
         next,
         prev,
         getCurrentIndex,
+        startAutoPlay,
+        pauseAutoPlay,
         scrollTo,
       }),
       [getCurrentIndex, next, prev, scrollTo],
